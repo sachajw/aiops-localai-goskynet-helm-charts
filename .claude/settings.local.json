@@ -1,0 +1,33 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(kubectl get:*)",
+      "Bash(git pull:*)",
+      "WebSearch",
+      "Bash(kubectl logs:*)",
+      "Bash(kubectl exec:*)",
+      "Bash(flux reconcile source git:*)",
+      "Bash(flux reconcile helmrelease:*)",
+      "Bash(flux reconcile:*)",
+      "Bash(flux get kustomizations:*)",
+      "Bash(cat:*)",
+      "Bash(flux suspend:*)",
+      "Bash(flux resume:*)",
+      "Bash(kubectl delete:*)",
+      "Bash(kubectl patch:*)",
+      "Bash(kubectl apply:*)",
+      "Bash(python3:*)",
+      "Bash(yq:*)",
+      "Bash(kubectl replace:*)",
+      "Bash(helm template:*)",
+      "Bash(kubectl create:*)",
+      "Bash(curl:*)",
+      "Bash(kubectl wait:*)",
+      "Bash(jq:*)",
+      "Bash(kubectl describe:*)"
+    ]
+  }
+}
